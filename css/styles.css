@@ -1,0 +1,263 @@
+html, body {
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgba(201, 201, 201, 0.986);
+
+
+
+
+    -webkit-perspective: 700px;
+       -moz-perspective: 700px;
+        -ms-perspective: 700px;
+            perspective: 700px;
+  }
+  
+  /* Reset */
+  button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+  }
+  
+/* Disabled Button */
+
+.disabled {
+  display: inline-block;
+  position: relative;
+  padding: 20px 38px;
+  top: 0;
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  border-radius: 4px;
+  border-bottom: 1px solid rgba( 0, 0, 0, 0.5 );
+  background:rgb(216, 216, 216,1);
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+  
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+          transform: translateZ(0);
+  
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+
+          text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+                       #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+
+
+}
+
+
+
+
+
+  /* Button Animation */
+   button {
+    display: inline-block;
+    position: relative;
+    padding: 20px 38px;
+    top: 0;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba( 0, 0, 0, 0.5 );
+    background: rgb(51, 133, 191);
+    color: #fff;
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+    
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+            transform: translateZ(0);
+    
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+
+            text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+                         #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+
+
+  }
+
+  button:hover {
+    top: -10px;
+    box-shadow: 0px 08px 08px rgba(0, 0, 0, 0.959);
+    
+  }
+  
+   button:active {
+    top: -1px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.959);
+    background:rgba(201, 201, 201, 0.986);
+  }
+
+
+
+
+  /* Button Class when the game is Won*/
+  .Won {
+    display: inline-block;
+    position: relative;
+    padding: 20px 38px;
+    top: 0;
+    margin-top: 400px;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba( 0, 0, 0, 0.5 );
+    background: rgb(51, 133, 191);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+    
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+            transform: translateZ(0);
+    
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+
+            text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+                         #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+
+
+  }
+
+ /* Button Class when the game is Lost*/
+  .Lost {
+    display: inline-block;
+    position: relative;
+    padding: 20px 38px;
+    top: 0;
+    margin-top: 400px;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba( 0, 0, 0, 0.5 );
+    background: rgb(51, 133, 191);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+    
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+            transform: translateZ(0);
+    
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+
+            text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+                         #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+
+
+  }
+
+
+ 
+/* Keyboard */
+  .keyrow {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+  }
+
+  /* hearts */
+  .tries {
+      display: inline-block;
+      
+  }
+
+/* Phrase Hunter heading*/
+  h2 {
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #fff;
+
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+                 #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    
+}
+
+h2.title {
+         margin-top: 300px; 
+}
+
+h2.header {
+          margin-top: 300px;
+}
+
+
+
+/* Heart Alignment */
+ol {
+  padding-right: 55px;
+
+}
+
+
+ul {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* Phrase letters and spaces*/
+
+li.hide_letter, li.space {
+                        display:inline-block;
+                        background: white;
+                        padding: 20px 38px;
+                        border-bottom: 1px solid;
+                        font-size: 30px;
+                        position: relative;
+                        margin-top:2.5px;
+                        margin-bottom:2.5px;
+                        margin-right: 2.5px;
+                        margin-left: 2.5px;
+                        border-radius: 4px;
+                        color: white;
+                        user-select: none;
+                        /* Disables the user ability to highlight the  phrase text*/
+                        -ms-user-select: none;
+}
+
+li.space {
+  visibility: hidden;
+
+}
+
+
+li.show_letter {
+  display:inline-block;
+  background: white;
+  padding: 20px 38px;
+  border-bottom: 1px solid;
+  font-size: 30px;
+  position: relative;
+  margin-top:2.5px;
+  margin-bottom:2.5px;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+  border-radius: 4px;
+  color: black;
+
+}
